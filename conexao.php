@@ -6,6 +6,6 @@ $senha = "";
 $dbname = "projeto";
 
 //criando conexao
-$conexao = mysqli_connect($servidor, $usuario, $senha, $dbname);
+$conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
 
 ?>
